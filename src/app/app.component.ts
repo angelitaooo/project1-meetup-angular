@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  author = 'angela';
+  count = 0;
+  imgSource = './../favicon.ico';
+  enable = false;
 }
