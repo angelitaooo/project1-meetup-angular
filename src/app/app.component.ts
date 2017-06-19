@@ -7,8 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  author = 'angela';
+  author = 'Ángela O';
   count = 0;
   imgSource = './../favicon.ico';
   enable = false;
+  buttonText = 'Deactivate';
+
+  change() {
+    // Switch to enable === true if enable was === false
+    // Switch to enable === false if enable was === true
+    this.enable = !this.enable;
+
+    // 'Activate' if enable === true
+    // 'Deactivate' if enable === false
+    this.buttonText = !this.enable ? 'Deactivate' : 'Activate';
+
+    // count++
+    this.count++;
+  }
 }

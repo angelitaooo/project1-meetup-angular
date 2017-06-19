@@ -1,7 +1,13 @@
 <!--The whole content below can be removed with the new code.-->
 
+<h1>{{author}}</h1>
 <app-my-component></app-my-component>
 <img [src]="imgSource">
 
-
+<!-- if enable === true then button is disabled -->
+<!-- if enable === false then button is enabled -->
 <input [disabled]="enable">
+
+<button (click)="change()">{{buttonText}}</button>
+
+You have clicked {{count}} times
