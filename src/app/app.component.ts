@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'app';
   author = 'Ángela O';
   count = 0;
-  imgSource = './../favicon.ico';
+  imgSource = '../../favicon.ico';
   enable = false;
   buttonText = 'Deactivate';
 
