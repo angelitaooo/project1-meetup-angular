@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'app';
   author = 'Ángela O';
   count = 0;
-  imgSource = '../../favicon.ico';
+  imgSource = 'https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg';
   enable = false;
   buttonText = 'Deactivate';
 
